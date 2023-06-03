@@ -1,5 +1,5 @@
 export default function Message({message}) {
-    const upperCaseMessage = message.toUpperCase();
+    const upperCaseMessage = message.toLowerCase();
 
     return <p>{upperCaseMessage}</p>
 }
